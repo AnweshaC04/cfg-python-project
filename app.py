@@ -6,4 +6,4 @@ app = Flask("my_first_app")
 def say_hello():
     return "hello world!"
 
-app.run(debug=True)
+app.run(debug=True, host="0.0.0.0")
